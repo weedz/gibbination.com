@@ -29,6 +29,7 @@ header.top {
     list-style: none;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .main-nav > ul li.active > a {
     color: lightgreen;
@@ -75,4 +76,5 @@ code {
     background-color: #272727;
     border: 1px solid #555;
     border-radius: 3px;
+    display: inline-block;
 }
