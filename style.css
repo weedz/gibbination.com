@@ -5,7 +5,7 @@
 
 html,
 body {
-    background-color: #333;
+    background-color: #121212;
     min-height: 100vh;
     color: #ccc;
     font-size: 14px;
@@ -22,7 +22,8 @@ a {
 }
 
 a:hover {
-    color: crimson;
+    /*color: crimson;*/
+    color: rgb(228, 0, 120);
 }
 
 header.top {
@@ -78,7 +79,7 @@ ul.dir-tree>li::before {
 
 .dir-tree-parent {
     font-size: 1.25em;
-    color: crimson;
+    color: rgb(228, 0, 120);
 }
 
 .center {
@@ -87,7 +88,7 @@ ul.dir-tree>li::before {
 
 code {
     padding: 11px;
-    background-color: #272727;
+    background-color: #222222;
     border: 1px solid #555;
     border-radius: 3px;
     display: inline-block;
